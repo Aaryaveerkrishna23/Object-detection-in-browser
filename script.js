@@ -41,10 +41,3 @@ function enableCam(event) {
     video.addEventListener('loadeddata', predictWebcam);
   });
 }
-// Placeholder function for next step.
-function predictWebcam() {
-}
-
-// Pretend model has loaded so we can try out the webcam code.
-var model = true;
-demosSection.classList.remove('invisible');
